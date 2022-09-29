@@ -18,9 +18,7 @@ export default function Hero() {
         </p>
         <div className='flex justify-center'>
           <Link href='/projects'>
-            <a className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
-              Check My Projects
-            </a>
+            <a className='btn-project'>Check My Projects</a>
           </Link>
         </div>
       </div>
