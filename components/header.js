@@ -33,7 +33,7 @@ export default function Header() {
               <a className='mr-5 hover:text-gray-900'>PROJECT</a>
             </Link>
 
-            <Link href='https://open.kakao.com/o/sL58nqEe'>
+            <Link href='mailto:sooryun.kim94@gmail.com'>
               <a className='mr-5 hover:text-gray-900'>CONTACT</a>
             </Link>
           </nav>
