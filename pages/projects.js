@@ -8,7 +8,7 @@ export default function Projects({ projects }) {
     <Layout>
       <div className='flex flex-col items-center justify-center min-h-screen mb-10 px-6'>
         <Head>
-          <title>Sooryun's Next.JS Portfolio!!!</title>
+          <title>Sooryun&apos;s Next.JS Portfolio!!!</title>
           <meta name='description' content='Next.JS Journey with Soo' />
           <link rel='icon' href='/favicon.ico' />
         </Head>
