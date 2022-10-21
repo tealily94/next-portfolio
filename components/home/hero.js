@@ -11,10 +11,11 @@ export default function Hero() {
           Following Her Journey...
         </h1>
         <p className='mb-8 leading-relaxed'>
-          Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-          plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-          mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
-          try-hard chambray.
+          A creative and passionate team player ready to jump into a dynamic
+          environment where I can design, develop, and test software solutions.
+          Skilled in identifying problem areas, recognizing the impact on the
+          business and users, and prioritizing the implementation of appropriate
+          solutions.
         </p>
         <div className='flex justify-center'>
           <Link href='/projects'>
