@@ -17,7 +17,7 @@ export default function Projects({ projects }) {
           <span className='pl-4 text-blue-500'>{projects.results.length}</span>
         </h1>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 p-12 m-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-8 p-12 m-4'>
           {projects.results.map((aProject) => (
             <ProjectItem key={aProject.id} data={aProject} />
           ))}
