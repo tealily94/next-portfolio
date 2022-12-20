@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function ProjectItem({ data }) {
   const title = data.properties.Name.title[0].plain_text;
   const github = data.properties.Github.url;
+  const projectURL = data.properties.URL.url;
   const desc = data.properties.Description.rich_text[0].plain_text;
   const imgSrc = data.cover.file?.url || data.cover.external.url;
   const tags = data.properties.Tags.multi_select;
@@ -47,11 +48,13 @@ export default function ProjectItem({ data }) {
         quality={100}
       />
       <div className='p-4 flex flex-col w-full'>
-        <h1 className='text-2xl font-bold'>{title}</h1>
+        <a href={projectURL} className='text-2xl font-bold'>
+          {title}
+        </a>
         <h3 className='mt-4 text-xl'>{desc}</h3>
-        <a href={github}>Go to GitHub</a>
+        <a href={github}>GitHub</a>
         <p className='my-1'>
-          Word Period: {start}~{end} ({calculatedPeriod(start, end)} Days)
+          Work Period: {start}~{end} ({calculatedPeriod(start, end)} Days)
         </p>
 
         <div className='flex items-start mt-2'>
